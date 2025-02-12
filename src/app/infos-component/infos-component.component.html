@@ -1,10 +1,13 @@
 <div>
   <h3>Infos Component</h3>
+  <img [src]="urlImage" alt="Image of Daniel" width="250" height="250">
   <ul>
     <li>{{ name }}</li>
     <li> {{ birthdate | date: "dd/MM/yyyy"}}</li>
     <li> {{ age }}</li>
+    <li class="btn" (click)="showCity()">
+      <button type="button">Show city</button>
+    </li>
   </ul>
-
 </div>
 

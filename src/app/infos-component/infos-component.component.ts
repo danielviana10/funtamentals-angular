@@ -9,4 +9,10 @@ export class InfosComponentComponent {
   name = "Daniel"
   birthdate = "1999-03-16"
   age = 25
+  urlImage = "/assets/daniel-about-me.png"
+  city = "Barueri"
+
+  showCity () {
+    alert(`My city is ${this.city}`)
+  }
 }
